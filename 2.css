@@ -388,6 +388,7 @@
 .face2 { transform: rotateY(90deg)  translateZ(calc(var(--size) * 0.5)); }
 .face3 { transform: rotateY(180deg) translateZ(calc(var(--size) * 0.5)); }
 .face4 { transform: rotateY(-90deg) translateZ(calc(var(--size) * 0.5)); }
+.face5 { transform: rotateY(-180deg) translateZ(calc(var(--size) * 0.5)); }
 .face::after {
   content: "";
   position:absolute; inset:0;
